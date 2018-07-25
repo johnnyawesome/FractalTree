@@ -21,15 +21,11 @@ void draw(){
   text("Move the mouse to right to change the angle", 10, 30); 
   text("Move the mouse down to add branches", 10, 60);
 
-
-
-  
   //Translate moves the grid. 0,0 coordinates are NOT in the top left corner anymore.
   //They get "Translated" so x is in the middle of the screen (width/2) and y = 0 is at the bottom of the screen (height)
   translate (width /2, height);  
   branch(branchLength, branchAngle);
   
-
 }
 
 void branch(float branchLength, float branchAngle){
@@ -39,7 +35,6 @@ void branch(float branchLength, float branchAngle){
   
   //Modifies the angle of branches according to the mouse X axis
   branchAngle = map(mouseX, 0, width, 1, 5);
-  
   
   if(branchLength > 3){
     
@@ -73,7 +68,6 @@ void branch(float branchLength, float branchAngle){
     branch(branchLength * branchModifier, branchAngle);
     
     popMatrix();
-  
-  
+ 
   }
 }
