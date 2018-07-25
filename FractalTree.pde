@@ -3,6 +3,7 @@ void setup(){
   background(0);
   stroke(255);
   size(800,800,P2D);
+  
 }
 
 void draw(){
@@ -10,7 +11,16 @@ void draw(){
   float branchLength = 200;
   float branchAngle = 4;
   
+  //Wipe the screen every frame, so the re-drawn trees don't get drawn all over each other
+  
   background(0);
+  
+  //Instructions
+  textSize(20);
+  fill(0, 102, 153);
+  text("Move the mouse to right to change the angle", 10, 30); 
+  text("Move the mouse down to add branches", 10, 60);
+
 
 
   
@@ -24,12 +34,14 @@ void draw(){
 
 void branch(float branchLength, float branchAngle){
   
-  float branchModifier = map(mouseY, 0, height, 0.5, 0.72);
+  //Modifies the number of branches according to the mouse Y axis
+  float branchModifier = map(mouseY, 0, height, 0.1, 0.75);
   
+  //Modifies the angle of branches according to the mouse X axis
   branchAngle = map(mouseX, 0, width, 1, 5);
   
   
-  if(branchLength > 2){
+  if(branchLength > 3){
     
     //First branch
     line(0,0,0,-branchLength);
