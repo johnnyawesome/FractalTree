@@ -1,10 +1,11 @@
 # FractalTree
 
-A mouse-controlled fractal Tree written in Processing
+A mouse-controlled fractal tree written in Processing
 
 ## Update
 I wrote a better, colored version in P5JS, [you can find it here](https://github.com/johnnyawesome/FractalTreeP5JS)
-######## end update ########
+
+This fractal tree is written in Processing.
 
 Move the mouse to the top-left corner of the window to begin.
 
