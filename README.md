@@ -11,6 +11,6 @@ This results in a very simple tree if the mouse is in the top-left corner...
 
 ...and in a complex tree if you're in the bottom right corner:
 
-![alt text](https://github.com/johnnyawesome/FractalTree/blob/master/FractalTreeImage.jpg)
+![FractalTreeImage](https://github.com/johnnyawesome/FractalTree/blob/master/FractalTreeImage.jpg)
 
 
