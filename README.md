@@ -5,7 +5,7 @@ A mouse-controlled fractal tree written in Processing
 ## Update
 I wrote a better, colored version in P5JS, [you can find it here](https://github.com/johnnyawesome/FractalTreeP5JS)
 
-Also, there is a second verison with a [nicer coloring available for the P5JS project, right here](https://github.com/johnnyawesome/FractalTreeLeafsP5JS)
+Also, there is a second verison with a [nicer coloring available for the P5JS project, right here](https://github.com/johnnyawesome/FractalTreeLeafsP5JS).
 
 
 # FractalTree
